@@ -1,6 +1,6 @@
 {
 	"metadata": {
-		"version": 1
+		"version": 2
 	},
 	"application": {
 		"name": "yg-java-gradle-os",
@@ -54,7 +54,7 @@
 							{
 								"name": "build",
 								"definition": "build",
-								"command": "gradle build",
+								"command": "gradle build\n",
 								"properties": null
 							}
 						],
@@ -68,13 +68,7 @@
 		"deployment_files": [],
 		"application_init": {
 			"command": "bin/start-service.sh"
-		},
-		"releases": [
-			{
-				"name": "consul",
-				"version": "latest"
-			}
-		]
+		}
 	},
 	"organization": {
 		"orgname": "GR-Product"
