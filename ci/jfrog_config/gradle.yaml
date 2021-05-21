@@ -1,0 +1,11 @@
+version: 1
+type: gradle
+resolver:
+  repo: gradle-jcenter
+  serverId: calculi-art
+deployer:
+  deployMavenDescriptors: true
+  deployIvyDescriptors: true
+  ivyPattern: '[organization]/[module]/ivy-[revision].xml'
+  artifactPattern: '[organization]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]'
+usePlugin: true
