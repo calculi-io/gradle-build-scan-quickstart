@@ -64,7 +64,18 @@
 			}
 		],
 		"exit_actions": {},
-		"default_properties": null,
+		"default_properties": [
+			{
+				"name": "gr.codeql.run.scan",
+				"value": "false",
+				"type": "boolean"
+			},
+			{
+				"name": "gr.whitsource.opensource.scan",
+				"value": "false",
+				"type": "boolean"
+			}
+		],
 		"deployment_files": [],
 		"application_init": {
 			"command": "bin/start-service.sh"
