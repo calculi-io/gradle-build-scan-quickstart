@@ -4,9 +4,11 @@ plugins {
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
     testImplementation 'junit:junit:4.13.1'
+    implementation 'org.apache.thrift:libthrift:0.9.3'
 }
