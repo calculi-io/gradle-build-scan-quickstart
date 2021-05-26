@@ -35,7 +35,7 @@
 						"type": "string"
 					},
 					{
-						"name": "gr.xray.run.scan",
+						"name": "gr.whitesource.opensource.run.scan",
 						"value": true,
 						"type": "boolean"
 					}
