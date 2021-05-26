@@ -35,7 +35,7 @@
 						"type": "string"
 					},
 					{
-						"name": "gr.whitesource.opensource.run.scan",
+						"name": "gr.whitesource.opensource.scan",
 						"value": true,
 						"type": "boolean"
 					}
